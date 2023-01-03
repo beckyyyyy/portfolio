@@ -1,0 +1,81 @@
+/* reset css */
+* {
+    box-sizing: border-box;
+    font-family: "微軟正黑體";
+    color: #040F0F;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+div,
+span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* intro setting */
+.intro {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    height: 100%;
+    width: 35%;
+    background-color: #FCFFFC;
+}
+
+.icon:hover {
+    color: #56A3A6;
+}
+
+/* collection-container setting */
+.fixed-width {
+    margin-left: 35%;
+}
+
+.collection {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-link {
+    width: 60%;
+}
+
+.collection-screenshot {
+    width: 100%;
+}
+
+#collection_1 {
+    background-color: #D33F49;
+}
+
+#collection_2 {
+    background-color: #BBC7A4;
+}
+
+#collection_3 {
+    background-color: #F0CA50;
+}

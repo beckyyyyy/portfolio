@@ -1,8 +1,8 @@
 /* reset css */
 * {
-    box-sizing: border-box;
-    font-family: "微軟正黑體";
-    color: #040F0F;
+  box-sizing: border-box;
+  font-family: "微軟正黑體";
+  color: #040f0f;
 }
 
 html,
@@ -20,62 +20,84 @@ li,
 img,
 div,
 span {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.8;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* main-container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 /* intro setting */
-.intro {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 20px;
-    height: 100%;
-    width: 35%;
-    background-color: #FCFFFC;
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+  background-color: #fcfffc;
 }
-
+.intro-content {
+  margin-bottom: 20px;
+}
 .icon:hover {
-    color: #56A3A6;
+  color: #56a3a6;
 }
 
 /* collection-container setting */
 .fixed-width {
-    margin-left: 35%;
+  width: 80%;
+  margin: 0 auto;
 }
-
 .collection {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .collection-link {
-    width: 60%;
+  width: 60%;
 }
-
 .collection-screenshot {
-    width: 100%;
+  width: 100%;
 }
-
 #collection_1 {
-    background-color: #D33F49;
+  background-color: #d33f49;
 }
-
 #collection_2 {
-    background-color: #BBC7A4;
+  background-color: #bbc7a4;
 }
 
 #collection_3 {
-    background-color: #F0CA50;
+  background-color: #f0ca50;
+}
+
+@media screen and (min-width: 576px) {
+  /* main-container */
+  .main-container {
+    flex-direction: row;
+  }
+
+  /* intro-container */
+  .intro-container {
+    flex-basis: 35%;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+  }
+
+  /* collection-container */
+  .collection-container {
+    flex-basis: 65%;
+  }
 }

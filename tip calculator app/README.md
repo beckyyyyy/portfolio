@@ -16,10 +16,11 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Screenshot
 
-Desktop 💻
-![](./design/Desktop.png)
-Mobile 📱
-![](./design/Mobile.png)
+Desktop 💻  
+<img src="./design/Desktop.png" width="60%">
+
+Mobile 📱  
+<img src="./design/Mobile.png" width="30%">
 
 ### Links
 

@@ -26,10 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop 💻
-![](./design/Desktop.png)
-Mobile 📱
-![](./design/Mobile.png)
+Desktop 💻  
+<img src="./design/Desktop.png" width="60%">
+
+Mobile 📱  
+<img src="./design/Mobile.png" width="30%">
 
 ### Links
 

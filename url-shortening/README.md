@@ -27,9 +27,9 @@ Users should be able to:
 ### Screenshot
 
 Desktop 💻
-![](/design/Desktop.png)
+![](./design/Desktop.png)
 Mobile 📱
-![](/design/Mobile.png)
+![](./design/Mobile.png)
 
 ### Links
 

@@ -15,10 +15,11 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 ## Overview
 
 ### Screenshot
+
 Desktop 💻
-![](/design/Desktop.png)
+![](./design/Desktop.png)
 Mobile 📱
-![](/design/Mobile.png)
+![](./design/Mobile.png)
 
 ### Links
 
@@ -37,12 +38,10 @@ Mobile 📱
 ### What I learned
 
 1. 監聽器的運用
-2. 練習用forEach來處理多個按鈕
-3. 透過html標籤中data-set的屬性自訂資料，提供js端做數據的運算
-
+2. 練習用 forEach 來處理多個按鈕
+3. 透過 html 標籤中 data-set 的屬性自訂資料，提供 js 端做數據的運算
 
 ## Author
 
 - [Website](https://beckyyyyy.github.io/portfolio/)
 - [Gmail](nkes50723@gmail.com)
-

@@ -1,35 +1,3 @@
-/* reset css */
-* {
-  box-sizing: border-box;
-  font-family: "微軟正黑體";
-  color: #040f0f;
-}
-
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul,
-li,
-img,
-div,
-span {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-p {
-  font-size: 14px;
-  line-height: 1.6;
-}
-
 /* main-container */
 .main-container {
   display: flex;

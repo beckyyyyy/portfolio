@@ -5,43 +5,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/css_dir/main.css">
     <title>Becky's Gallery</title>
 </head>
 
 <body>
-    <main class="main-container">
-        <section class="intro-container">
-            <div class="intro-content">
-                <h1>Hello! <br>
+    <div class="container">
+        <aside class="intro">
+            <div class="intro__content">
+                <h2>Hello! <br>
                     I'm Becky. <br>
-                    Here are my portfolio of practicing Front-end-develop skills.</h1>
+                    Here are my collections of practicing Front-end-develop skills.</h2>
             </div>
-            <div class="contact-info-content">
+            <div class="intro__contact">
                 <span>Contact me :</span>
-                <a href="mailto: nkes50723@gmail.com"><i class="icon fa-solid fa-envelope fa-xl"></i></a>
-                <a href="https://github.com/beckyyyyy" target="_blank"><i
-                        class="icon fa-brands fa-github fa-xl"></i></a>
+                <a href="https://github.com/beckyyyyy" target="_blank"><img class="icon" src="images/mail.svg"
+                        alt="mail-icon"></a>
+                <a href="https://github.com/beckyyyyy" target="_blank"><img class="icon" src="images/github.svg"
+                        alt="github-icon"></a>
             </div>
-        </section>
-        <section class="collection-container">
-            <div id="collection_1" class="collection">
-                <div class="fixed-width">
-                    <a href="https://beckyyyyy.github.io/portfolio/tip%20calculator%20app/" target="_blank"
-                        class="collection-link"><img src="images/tip-spliter.png" alt="tip-spliter homepage screenshot"
-                            class="collection-screenshot"></a>
+        </aside>
+        <main class="main">
+            <section id="collection-1" class="collection">
+                <div class="main__collection">
+                    <div class="fixed-width">
+                        <div class="main__collection__container">
+                            <h1>Tip Calculator</h1>
+                            <div class="image__container more-btn" data-id="1">
+                                <img src="images/tip-spliter.png" alt="tip calculator cover">
+                                <div class="image__container__more">
+                                    <h3 class="click">Click me!</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div id="collection_2" class="collection">
-
-            </div>
-            <div id="collection_3" class="collection">
-
-            </div>
-        </section>
-    </main>
-
-    <script src="https://kit.fontawesome.com/f3b5176589.js" crossorigin="anonymous"></script>
+                <div class="main__detail">
+                    <div class="fixed-width">
+                        <div class="main__detail__container">
+                            <div class="close-container">
+                                <img class="close-btn icon" data-id="1" src="images/close.svg" alt="close-icon">
+                            </div>
+                            <div class="information">
+                                <h1>About project</h1>
+                                <ul class="about-list">
+                                    <li>A Tip Calculator APP that can calculate tip and total cost of the
+                                        bill per person
+                                    </li>
+                                    <li>Built with HTML, CSS, JavaScript</li>
+                                    <li>Responsive web design</li>
+                                </ul>
+                                <div class="link-container">
+                                    <a href="https://github.com/beckyyyyy/tip-calculator-app" target="_blank"><img
+                                            class="icon" src="images/github.svg" alt="github-icon"></a>
+                                    <a href="https://beckyyyyy.github.io/tip-calculator-app/#" target="_blank"><img
+                                            class="icon" src="images/chrome.svg" alt="chrome-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="collection-2" class="collection">
+                <div class="main__collection">
+                    <div class="fixed-width">
+                        <div class="main__collection__container">
+                            <h1>Rock, Paper, Scissors Game</h1>
+                            <div class="image__container more-btn" data-id="2">
+                                <img src="images/game-cover.png" alt="">
+                                <div class="image__container__more">
+                                    <h3 class="click">Click me!</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__detail">
+                    <div class="fixed-width">
+                        <div class="main__detail__container">
+                            <div class="close-container">
+                                <img class="close-btn icon" data-id="2" src="images/close.svg" alt="close-icon">
+                            </div>
+                            <div class="information">
+                                <h1>About project</h1>
+                                <ul class="about-list">
+                                    <li>A Rock, Paper, Scissors Game</li>
+                                    <li>Click "RULES" to see the game's rules</li>
+                                    <li>Click Rock, Paper or Scissors to start the game</li>
+                                    <li>Earn a point when you beat the computer</li>
+                                    <li>Built with HTML, Sass/SCSS, JavaScript</li>
+                                    <li>Add some animations</li>
+                                </ul>
+                                <div class="link-container">
+                                    <a href="https://github.com/beckyyyyy/rock-paper-scissors-game" target="_blank"><img
+                                            class="icon" src="images/github.svg" alt="github-icon"></a>
+                                    <a href="https://beckyyyyy.github.io/rock-paper-scissors-game/" target="_blank"><img
+                                            class="icon" src="images/chrome.svg" alt="chrome-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="collection-3" class="collection">
+                <div class="main__collection">
+                    <div class="fixed-width">
+                        <div class="main__collection__container">
+                            <h1>Countries</h1>
+                            <div class="image__container more-btn" data-id="3">
+                                <img src="images/countries-cover.png" alt="">
+                                <div class="image__container__more">
+                                    <h3 class="click">Click me!</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__detail">
+                    <div class="fixed-width">
+                        <div class="main__detail__container">
+                            <div class="close-container">
+                                <img class="close-btn icon" data-id="3" src="images/close.svg" alt="close-icon">
+                            </div>
+                            <div class="information">
+                                <h1>About project</h1>
+                                <ul class="about-list">
+                                    <li>See all countries from the API on the homepage</li>
+                                    <li>Find out countries by searching or filter by region
+                                    </li>
+                                    <li>Click on a country to see more details</li>
+                                    <li>Switch between dark and light mode</li>
+                                    <li>Built with React</li>
+                                    <li>Using Axios, RESTful API</li>
+                                    <li>Responsive web design</li>
+                                </ul>
+                                <div class="link-container">
+                                    <a href="https://github.com/beckyyyyy/react-countries-api" target="_blank"><img
+                                            class="icon" src="images/github.svg" alt="github-icon"></a>
+                                    <a href="https://beckyyyyy.github.io/react-countries-api/" target="_blank"><img
+                                            class="icon" src="images/chrome.svg" alt="chrome-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="collection-4" class="collection">
+                <div class="main__collection">
+                    <div class="fixed-width">
+                        <div class="main__collection__container">
+                            <h1>Shorten URL</h1>
+                            <div class="image__container more-btn" data-id="4">
+                                <img src="images/shortenURL-cover.png" alt="">
+                                <div class="image__container__more">
+                                    <h3 class="click">Click me!</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__detail">
+                    <div class="fixed-width">
+                        <div class="main__detail__container">
+                            <div class="close-container">
+                                <img class="close-btn icon" data-id="4" src="images/close.svg" alt="close-icon">
+                            </div>
+                            <div class="information">
+                                <h1>About project</h1>
+                                <ul class="about-list">
+                                    <li>Put in a Link and click "Shorten it!" to get a shorten URL</li>
+                                    <li>Click "Copy" to copy the shorten URL to your clipboard
+                                    </li>
+                                    <li>Built with HTML, Sass/SCSS, JavaScript</li>
+                                    <li>Using Axios, RESTful API</li>
+                                    <li>Responsive web design</li>
+                                </ul>
+                                <div class="link-container">
+                                    <a href="https://github.com/beckyyyyy/url-shortening" target="_blank"><img
+                                            class="icon" src="images/github.svg" alt="github-icon"></a>
+                                    <a href="https://beckyyyyy.github.io/url-shortening/" target="_blank"><img
+                                            class="icon" src="images/chrome.svg" alt="chrome-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>

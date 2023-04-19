@@ -208,6 +208,16 @@ img {
   background-color: #F2BBC9;
 }
 
+#collection-5 {
+  background-color: #C69DD2;
+}
+#collection-5 .image__container__more {
+  background-color: rgba(198, 157, 210, 0.95);
+}
+#collection-5 > .main__detail {
+  background-color: #DEC7E5;
+}
+
 .icon {
   width: 1.8em;
   height: 1.8em;

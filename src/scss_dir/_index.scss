@@ -170,6 +170,18 @@
     }
 }
 
+#collection-5 {
+    background-color: $collection5_primary;
+
+    .image__container__more {
+        background-color: rgba($collection5_primary, 0.95);
+    }
+
+    >.main__detail {
+        background-color: $collection5_secondary;
+    }
+}
+
 // other common
 .icon{
     width: 1.8em;

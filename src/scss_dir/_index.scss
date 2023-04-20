@@ -126,7 +126,7 @@
 }
 
 // collection colors
-$max: 6;
+$max: 7;
 @for $i from 1 to $max {
     $primary-color:map-get($collection-primary, $i);
     $secondary-color:map-get($collection-secondary, $i);

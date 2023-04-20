@@ -128,6 +128,7 @@
 // collection colors
 $max: 5;
 @for $i from 1 to $max {
+    $primary-color:map-get($collection-primary, $i);
     $secondary-color:map-get($collection-secondary, $i);
     #collection-#{$i} {
         background-color: $primary-color;

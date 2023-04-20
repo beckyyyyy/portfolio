@@ -125,60 +125,19 @@
     }
 }
 
-
-#collection-1 {
-    background-color: $collection1_primary;
-    .image__container__more{
-        background-color: rgba($collection1_primary, 0.95);
-    }
-    > .main__detail{
-        background-color: $collection1_secondary;
-    }
-}
-
-#collection-2 {
-    background-color: $collection2_primary;
-    .image__container__more {
-            background-color: rgba($collection2_primary, 0.95);
+// collection colors
+$max: 5;
+@for $i from 1 to $max {
+    $secondary-color:map-get($collection-secondary, $i);
+    #collection-#{$i} {
+        background-color: $primary-color;
+        .image__container__more{
+            background-color: rgba($primary-color, 0.95);
         }
-    >.main__detail {
-            background-color: $collection2_secondary;
+        > .main__detail{
+            background-color: $secondary-color;
         }
-}
-
-#collection-3 {
-    background-color: $collection3_primary;
-
-    .image__container__more {
-        background-color: rgba($collection3_primary, 0.95);
-    }
-
-    >.main__detail {
-        background-color: $collection3_secondary;
-    }
-}
-
-#collection-4 {
-    background-color: $collection4_primary;
-
-    .image__container__more {
-        background-color: rgba($collection4_primary, 0.95);
-    }
-
-    >.main__detail {
-        background-color: $collection4_secondary;
-    }
-}
-
-#collection-5 {
-    background-color: $collection5_primary;
-
-    .image__container__more {
-        background-color: rgba($collection5_primary, 0.95);
-    }
-
-    >.main__detail {
-        background-color: $collection5_secondary;
+        
     }
 }
 
